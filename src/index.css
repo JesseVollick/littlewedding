@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+.header {
+  background: #3C402B;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.header a {
+  color: white;
+}
+
+.venue {
+  background: #3C402B;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.venue-image {
+  width: 50%;
+}
+
+.venue-image * {
+  width: 100%;
+}
+
+.venue-info {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
